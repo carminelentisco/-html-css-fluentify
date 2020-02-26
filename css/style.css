@@ -255,19 +255,48 @@ h2.big {
   width: 100%;
 }
 
-.pos1 {
-  padding-top: 40px;
+#structure h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
-.pos2 {
+#structure h3 {
+  padding-right: 15px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.div-height {
+  height: 100px;
+}
+
+.sono {
   display: inline-block;
-  padding-top: 40px;
 }
 
-.text-pos2 {
-  text-decoration: underline;
+.sono-text {
+  border-bottom: 1px solid grey;
 }
 
-.padding-pos2 {
-  padding: 5px;
+.pos {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translateY(-50%, -50%);
+}
+
+.p-left {
+  padding-left: 20px;
+}
+
+.btn-piano {
+  display: inline-block;
+  padding: 14px 10px;
+  background-color: #7bbb00;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
