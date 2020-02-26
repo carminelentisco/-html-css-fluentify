@@ -79,6 +79,21 @@ h2.big {
   float: left;
 }
 
+.padding-left-right {
+  padding: 0 40px;
+}
+
+.paddign-top-bottom {
+  padding: 20px 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
 
 /* Header */
 #main-header {
@@ -204,15 +219,18 @@ h2.big {
 
 .info-data-text {
   font-size: 120%;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 /* Plan */
 #plan {
   width: 1000px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
+.link-placement {
+  color: #2196f3;
+}
 /* Help */
 #help {
   position: fixed;
@@ -230,3 +248,26 @@ h2.big {
 }
 
 /* Structure styles here*/
+
+#structure {
+  background-color: #d3d3d3;
+  height: 100px;
+  width: 100%;
+}
+
+.pos1 {
+  padding-top: 40px;
+}
+
+.pos2 {
+  display: inline-block;
+  padding-top: 40px;
+}
+
+.text-pos2 {
+  text-decoration: underline;
+}
+
+.padding-pos2 {
+  padding: 5px;
+}
